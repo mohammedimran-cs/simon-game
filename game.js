@@ -66,7 +66,7 @@ function nextSequence() {
 }
 
 function playSound(name){
-    let sound = new Audio(`./sounds/${name}.mp3`);
+    let sound = new Audio(`./${name}.mp3`);
     sound.play();
 }
 
